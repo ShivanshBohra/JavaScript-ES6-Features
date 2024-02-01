@@ -5,3 +5,10 @@ let [x,y,...rest] = myarr1;
 console.log(x);
 console.log(y);
 console.log(rest);
+// -----------------------------------
+
+function myBio(firstName, lastName, ...otherInfo){
+    return otherInfo;
+}
+myData = myBio("Shiavnsh", "Bohra",24, "Narnaul", "Male")
+console.log(myData);
