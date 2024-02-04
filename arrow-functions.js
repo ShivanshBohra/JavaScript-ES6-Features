@@ -1,5 +1,5 @@
 // Arrow functions provide a more concise syntax for writing function expressions. 
-// They don’t require the function keyword, the return keyword, or curly brackets1
+// They don’t require the function keyword, the return keyword, or curly brackets.
 
 // 1. we cannot use new keyword in this.
 
@@ -17,16 +17,17 @@ function fun_name(){}
 // }
 
 
-//ES5
+// ES5
 function square(x){
-    return x*x
+    return x * x;
 }
-console.log(square(5))
+console.log(square(5)); // Output: 25
 
-//ES6
-const squareA =(x) => x*x;
-console.log(square(3));
+// ES6
+const squareA = (x) => x * x;
+console.log(squareA(3)); // Output: 9
 
-let a=[3254,35566,6787]
-a.forEach(e => console.log(e))
+// Using arrow function with forEach
 
+let a = [3254, 35566, 6787];
+a.forEach(e => console.log(e)); 
